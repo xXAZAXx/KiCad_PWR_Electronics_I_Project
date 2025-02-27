@@ -1,0 +1,22 @@
+Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet
+C1,1,0.0105,,,,Capacitor_SMD:C_0805_2012Metric,~
+"C2,C6,C7,C8,C10,C11,C12",7,"10u,1u,220U",,,,"Capacitor_SMD:C_0805_2012Metric,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","Bypass_Capacitor,Tantalum Decoupling Capacitor"
+C3,1,470u,,,,Capacitor_THT:CP_Radial_D18.0mm_P7.50mm,~
+C4,1,1u,,,,Capacitor_SMD:C_0805_2012Metric,~
+C5,1,47uf,,,,Capacitor_THT:CP_Radial_D18.0mm_P7.50mm,~
+"C9,D6,D10,D11,D12,R9,U2",7,"C,LAUNCHXL-F28379D,LED_ABGR,R,US2AA",,,,"Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,Diode_SMD:D_SMA,LAUNCHXL_F28379D:MOD_LAUNCHXL-F28379D,LED_SMD:LED_0805_2012Metric,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","https://www.onsemi.com/pub/Collateral/US2AA-D.PDF,~"
+D1,1,SS310,,,,Diode_SMD:D_SMA,https://www.microdiode.com/uploadfiles//PDF/SS32-THRU-SS3200-SMA.pdf
+"D8,D9",2,LED_ABGR,,,,LED_SMD:LED_0805_2012Metric,~
+"J1,J2,J3,J4,J5",5,Conn_01x01_Pin,,,,Connector:Banana_Jack_1Pin,~
+L1,1,47mh,,,,Inductor_THT:L_Radial_D50.8mm_P38.86mm_Vishay_IHB-6,~
+Q1,1,IRF540N,,,,Package_TO_SOT_THT:TO-220-3_Vertical,http://www.irf.com/product-info/datasheets/data/irf540n.pdf
+"R1,R4",2,100,,,,Resistor_SMD:R_0805_2012Metric,~
+"R2,R3",2,5,,,,Resistor_SMD:R_0805_2012Metric,~
+"R5,R6,R7,R8,R13",5,3.3K,,,,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,ERJ-P06F3301V
+R10,1,7R,,,,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,RMCF0805FT10K0
+R11,1,12R,,,,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,RC0805FR-0713RL
+R12,1,50R,,,,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,RCP1206W50R0JTP
+U3,1,OPA547T,,,,OPA547Tfootprints:KVT7,OPA547T
+U4,1,TMV 0512SHI,,,,footprints:TMV-HI_SINGLE_TRP,TMV 0512SHI
+U5,1,UCC5304DWVR,,,,footprints:SOIC8_DWV_TEX,UCC5304DWVR
+U2,1,LAUNCHXL-F28379D,,,,LAUNCHXL_F28379D:MOD_LAUNCHXL-F28379D,296-46713-ND
