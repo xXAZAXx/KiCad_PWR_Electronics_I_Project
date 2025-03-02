@@ -1,4 +1,25 @@
-24744306697110534
+24756492447177402
+5500R_566Kfootprints
+5500R-566K_API
+
+5500R-566K 
+0
+2
+2
+5500R_566Kfootprints
+5500R-566K_API-L
+
+5500R-566K 
+0
+2
+2
+5500R_566Kfootprints
+5500R-566K_API-M
+
+5500R-566K 
+0
+2
+2
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65855,6 +65876,20 @@ Yellow 5381 Series LED
 0
 2
 2
+LM358AP_footprints
+P8
+
+LM358AP 
+0
+8
+8
+MURATAPSLOGO
+murataPSlogo.pretty
+
+
+0
+0
+0
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -68606,6 +68641,13 @@ net tie
 0
 4
 4
+OPA547Tfootprints
+KVT7
+
+OPA547T 
+0
+7
+7
 OptoDevice
 ADNS-9800
 Laser Gaming Sensor ADNS-9800
@@ -98734,6 +98776,13 @@ igbt diode module
 0
 25
 25
+UWINLOGO
+UWINLOGO.pretty
+
+
+0
+0
+0
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins

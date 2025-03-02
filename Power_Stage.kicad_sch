@@ -1063,12 +1063,6 @@
 		(uuid "45e4e90e-03d9-4517-9960-d8d1430006fb")
 	)
 	(junction
-		(at 113.03 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c56eec37-3803-4002-a52c-8a58e33ec8b6")
-	)
-	(junction
 		(at 113.03 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1079,6 +1073,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca8a12da-dfd7-4ad6-8fc2-a67aeb14dc44")
+	)
+	(junction
+		(at 113.03 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e29a1dc6-c686-47d5-aec0-2c634ea185cd")
 	)
 	(wire
 		(pts
@@ -1099,16 +1099,6 @@
 			(type default)
 		)
 		(uuid "2aa00c05-9de2-474f-a639-34e1a996a462")
-	)
-	(wire
-		(pts
-			(xy 113.03 58.42) (xy 113.03 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e3fc605-f577-40ed-bebf-dd1a8b2c77c0")
 	)
 	(wire
 		(pts
@@ -1152,23 +1142,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 58.42) (xy 125.73 58.42)
+			(xy 129.54 58.42) (xy 137.16 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7af2c31d-48ab-409a-8be7-b79231324533")
-	)
-	(wire
-		(pts
-			(xy 133.35 58.42) (xy 137.16 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8116b65b-7fc8-4edd-9660-96ac2ae45d56")
+		(uuid "8485b40d-b47c-4502-b26f-bef593fceb08")
 	)
 	(wire
 		(pts
@@ -1199,6 +1179,26 @@
 			(type default)
 		)
 		(uuid "b27d5544-0b6d-4196-813d-1f84bb10febd")
+	)
+	(wire
+		(pts
+			(xy 113.03 58.42) (xy 113.03 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b324580d-269b-48d6-b81e-cee3e5c11d8a")
+	)
+	(wire
+		(pts
+			(xy 113.03 58.42) (xy 121.92 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f53ec641-a823-4fd1-94b6-a0ef44347572")
 	)
 	(wire
 		(pts
@@ -1565,7 +1565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "GRM21BC72A105KE01L"
+		(property "Part No." "T58W9105M035C0500"
 			(at 100.33 59.69 0)
 			(effects
 				(font
@@ -1591,7 +1591,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 129.54 58.42 90)
+		(at 125.73 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1600,7 +1600,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ce31bb1-7f60-4915-afa9-12e431a0f495")
 		(property "Reference" "L1"
-			(at 129.54 53.34 90)
+			(at 125.73 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1608,15 +1608,15 @@
 			)
 		)
 		(property "Value" "47mh"
-			(at 129.54 55.88 90)
+			(at 125.73 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Inductor_THT:L_Radial_D50.8mm_P38.86mm_Vishay_IHB-6"
-			(at 129.54 58.42 0)
+		(property "Footprint" "5500R_566Kfootprints:5500R-566K_API"
+			(at 125.73 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1625,7 +1625,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 58.42 0)
+			(at 125.73 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1634,7 +1634,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 129.54 58.42 0)
+			(at 125.73 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1642,8 +1642,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "RDC60-473K-RC"
-			(at 129.54 58.42 0)
+		(property "Part No." "5500R-566K"
+			(at 125.73 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1658,7 +1658,7 @@
 			(uuid "32049fb4-07cb-4bdd-86c7-1d13e46881b4")
 		)
 		(instances
-			(project ""
+			(project "PCB_Tutorial_Lect"
 				(path "/a5e6a684-17c9-434a-acf7-c925557987b4/42efdf7f-6767-4f03-a2b7-2406e2d1eb6b"
 					(reference "L1")
 					(unit 1)

@@ -626,24 +626,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED_ABGR"
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0)
+				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 0 9.398 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "LED_ABGR"
-				(at 0 -8.89 0)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -651,24 +654,6 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "RGB LED, anode/blue/green/red"
 				(at 0 0 0)
 				(effects
 					(font
@@ -677,7 +662,34 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "LED RGB diode"
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -695,394 +707,80 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_ABGR_0_0"
-				(text "R"
-					(at -1.905 3.81 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
-				(text "G"
-					(at -1.905 -1.27 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
-				(text "B"
-					(at -1.905 -6.35 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
-			(symbol "LED_ABGR_0_1"
-				(polyline
-					(pts
-						(xy -1.27 6.35) (xy -1.27 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 6.35) (xy -1.27 3.81) (xy -1.27 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 5.08) (xy -2.54 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 5.08) (xy 1.27 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -3.81) (xy -1.27 -6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -2.54 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy 1.27 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 6.35) (xy 0.508 7.874) (xy -0.254 7.874) (xy 0.508 7.874) (xy 0.508 7.112)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.27) (xy 0.508 2.794) (xy -0.254 2.794) (xy 0.508 2.794) (xy 0.508 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -3.81) (xy 0.508 -2.286) (xy -0.254 -2.286) (xy 0.508 -2.286) (xy 0.508 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 6.35) (xy 1.524 7.874) (xy 0.762 7.874) (xy 1.524 7.874) (xy 1.524 7.112)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 1.524 2.794) (xy 0.762 2.794) (xy 1.524 2.794) (xy 1.524 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 1.524 -2.286) (xy 0.762 -2.286) (xy 1.524 -2.286) (xy 1.524 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 6.35) (xy 1.27 3.81) (xy -1.27 5.08) (xy 1.27 6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.27 6.35)
-					(end 1.27 6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.27 3.81)
-					(end 1.27 6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.27 1.27)
-					(end 1.27 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.27 -1.27)
-					(end 1.27 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.81) (xy 1.27 -6.35) (xy -1.27 -5.08) (xy 1.27 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 2.032 -5.08) (xy 2.032 5.08) (xy 1.27 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 2.794 8.382)
-					(end -2.794 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LED_ABGR_1_1"
+			(symbol "LED_1_1"
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -3.81 0 0)
 					(length 2.54)
-					(name "RK"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "GK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1091,25 +789,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 2.54)
-					(name "BK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
+					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -1118,7 +798,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1726,12 +1406,6 @@
 		(uuid "21f96564-6901-407e-82bb-947d87303adf")
 	)
 	(junction
-		(at 151.13 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5cf6a9a6-3b1b-4d11-9e4e-315b652795cb")
-	)
-	(junction
 		(at 38.1 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1742,12 +1416,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82d62608-35f6-46b2-94b8-4475b74f8ba7")
-	)
-	(junction
-		(at 144.78 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "83b5d28a-f67f-496e-bcfa-2d2a4d35d094")
 	)
 	(junction
 		(at 77.47 107.95)
@@ -1772,16 +1440,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf2e65f0-5f8a-4716-a757-d21673d01180")
-	)
-	(wire
-		(pts
-			(xy 146.05 88.9) (xy 151.13 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f802122-317f-499c-84da-059aa78ed3b8")
 	)
 	(wire
 		(pts
@@ -1832,16 +1490,6 @@
 			(type default)
 		)
 		(uuid "4a5a8179-dae3-4c58-ad91-7e9f9e32d9ef")
-	)
-	(wire
-		(pts
-			(xy 139.7 36.83) (xy 144.78 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f486257-bfdc-439e-bd21-70c396224ddf")
 	)
 	(wire
 		(pts
@@ -1945,16 +1593,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 36.83) (xy 149.86 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7914132-92b6-444a-9120-6a44639fe05d")
-	)
-	(wire
-		(pts
 			(xy 132.08 88.9) (xy 127 88.9)
 		)
 		(stroke
@@ -2022,16 +1660,6 @@
 			(type default)
 		)
 		(uuid "d5bef0ed-2683-4b75-95af-a7692f6f0be5")
-	)
-	(wire
-		(pts
-			(xy 151.13 88.9) (xy 156.21 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6daa840-4fc8-413c-8ff0-8544567bb92a")
 	)
 	(wire
 		(pts
@@ -2204,7 +1832,7 @@
 		(uuid "c64b7ac2-3ce2-434c-b94c-af59c04ff32d")
 	)
 	(label "ISO_12"
-		(at 144.78 36.83 90)
+		(at 144.78 39.37 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2224,7 +1852,7 @@
 		(uuid "eec3bb8c-c98c-4182-9fa9-89fb9ca183ed")
 	)
 	(label "VG"
-		(at 151.13 78.74 0)
+		(at 151.13 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2317,7 +1945,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "33p"
 			(at 41.91 86.3599 0)
 			(effects
 				(font
@@ -2345,6 +1973,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 38.1 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." "600F330FT250XT4K"
 			(at 38.1 85.09 0)
 			(effects
 				(font
@@ -2518,7 +2155,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "51"
 			(at 34.29 77.47 90)
 			(effects
 				(font
@@ -2545,6 +2182,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 34.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." "RC0805FR-0751RL"
 			(at 34.29 81.28 0)
 			(effects
 				(font
@@ -2780,6 +2426,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 151.13 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d1f0523-1352-4082-8681-467c48987861")
+		(property "Reference" "D7"
+			(at 154.94 85.4074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMLMN2WB1CW1"
+			(at 154.94 87.9474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 151.13 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 151.13 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 151.13 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." "SMLMN2WB1CW1"
+			(at 151.13 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c326dac7-f417-4c7d-a667-a5b97ce25d59")
+		)
+		(pin "2"
+			(uuid "3d2cbc0a-dc1e-4f81-a611-d94e7efeda45")
+		)
+		(instances
+			(project "PCB_Tutorial_Lect"
+				(path "/a5e6a684-17c9-434a-acf7-c925557987b4/efb6fddb-b457-4211-9029-b34bfc963eb3"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 20.32 34.29 90)
 		(unit 1)
@@ -2984,6 +2718,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part No." "US2AA"
+			(at 128.27 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e7b4f474-3df4-4fad-8938-cc9e96978bd6")
 		)
@@ -3130,7 +2873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 µF Molded Tantalum Capacitors"
 			(at 91.44 111.76 0)
 			(effects
 				(font
@@ -3139,7 +2882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "TMCP1E105MTRF"
+		(property "Part No." "TAJP106M010RNJ"
 			(at 91.44 111.76 0)
 			(effects
 				(font
@@ -3288,7 +3031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 µF Molded Tantalum Capacitors"
 			(at 64.77 111.76 0)
 			(effects
 				(font
@@ -3297,7 +3040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "TMCP1E105MTRF"
+		(property "Part No." "TAJP106M010RNJ"
 			(at 64.77 111.76 0)
 			(effects
 				(font
@@ -3316,6 +3059,94 @@
 			(project "PCB_Tutorial_Lect"
 				(path "/a5e6a684-17c9-434a-acf7-c925557987b4/efb6fddb-b457-4211-9029-b34bfc963eb3"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 144.78 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96e14620-a991-42ac-beb0-2362c1c7c869")
+		(property "Reference" "D5"
+			(at 148.59 43.4974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMLMN2WB1CW1"
+			(at 148.59 46.0374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 144.78 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 144.78 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 144.78 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." "SMLMN2WB1CW1"
+			(at 144.78 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "753bffe1-1534-4fa8-96e5-dab7363f74eb")
+		)
+		(pin "2"
+			(uuid "c13d1215-5ff4-4275-a6a9-6f234df40dfb")
+		)
+		(instances
+			(project ""
+				(path "/a5e6a684-17c9-434a-acf7-c925557987b4/efb6fddb-b457-4211-9029-b34bfc963eb3"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -3628,7 +3459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "TMCP1E105MTRF"
+		(property "Part No." "T58W9105M035C0500"
 			(at 128.27 44.45 0)
 			(effects
 				(font
@@ -3707,7 +3538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "TMCP1E105MTRF"
+		(property "Part No." "298D227X0004P2T"
 			(at 77.47 111.76 0)
 			(effects
 				(font
@@ -3726,91 +3557,6 @@
 			(project "PCB_Tutorial_Lect"
 				(path "/a5e6a684-17c9-434a-acf7-c925557987b4/efb6fddb-b457-4211-9029-b34bfc963eb3"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_ABGR")
-		(at 151.13 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b778bc90-f313-4ec4-8fac-417ffafcee8d")
-		(property "Reference" "D9"
-			(at 160.02 82.5499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED_ABGR"
-			(at 160.02 85.0899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 152.4 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED, anode/blue/green/red"
-			(at 151.13 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." "LED_ABGR"
-			(at 151.13 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "620e9dae-910f-405a-a6d0-2028aad64068")
-		)
-		(pin "3"
-			(uuid "ef19bdb2-3232-48dc-a181-c5226ca59fc9")
-		)
-		(pin "2"
-			(uuid "e664b454-393c-4825-a0a7-fbef2b860558")
-		)
-		(pin "1"
-			(uuid "d50d90ed-7149-4468-bc1e-e0a6a410c7a3")
-		)
-		(instances
-			(project "PCB_Tutorial_Lect"
-				(path "/a5e6a684-17c9-434a-acf7-c925557987b4/efb6fddb-b457-4211-9029-b34bfc963eb3"
-					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -3871,7 +3617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "TMCP1E105MTRF"
+		(property "Part No." "T58W9105M035C0500"
 			(at 53.34 44.45 0)
 			(effects
 				(font
@@ -3962,91 +3708,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_ABGR")
-		(at 144.78 41.91 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d53e84ff-e606-4115-ba60-dda044b5408a")
-		(property "Reference" "D8"
-			(at 154.94 40.6399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LED_ABGR"
-			(at 154.94 43.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 143.51 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED, anode/blue/green/red"
-			(at 144.78 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." "LED_ABGR"
-			(at 144.78 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "8200217e-bfba-4109-a439-25145672bc53")
-		)
-		(pin "3"
-			(uuid "e2976e22-7b2f-4234-ba0d-1ff8677a9c6e")
-		)
-		(pin "2"
-			(uuid "1e6938f3-c1d8-4b0f-8097-7899e838d6dd")
-		)
-		(pin "1"
-			(uuid "8158272f-a009-4e0c-a90b-446240336904")
-		)
-		(instances
-			(project ""
-				(path "/a5e6a684-17c9-434a-acf7-c925557987b4/efb6fddb-b457-4211-9029-b34bfc963eb3"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 34.29 123.19 0)
 		(unit 1)
@@ -4101,7 +3762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "TMCP1E105MTRF"
+		(property "Part No." "T58W9105M035C0500"
 			(at 34.29 123.19 0)
 			(effects
 				(font
